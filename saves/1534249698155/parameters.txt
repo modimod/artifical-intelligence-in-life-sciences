@@ -1,0 +1,11 @@
+hidden_dim: 128
+num_layers: 2
+max_epochs: 100
+early_stop: 3
+learning_rate: 0.001
+batch_size: 32
+norm_clip_value: 5
+dropout: 0.5
+sliding_window: 3
+tagset_size: 9
+macro aucs last epoch: 0.8483
